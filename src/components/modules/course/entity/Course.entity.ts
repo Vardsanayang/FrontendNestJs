@@ -26,4 +26,5 @@ export interface ICourseEntity {
     created_at: string;
     updated_at: string;
   };
+  
 }
