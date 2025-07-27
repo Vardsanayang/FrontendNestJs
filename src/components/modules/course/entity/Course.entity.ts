@@ -12,6 +12,8 @@ export interface ICourseEntity {
   status: string;
   created_at: string;
   updated_at: string;
+  teacher_id:number;
+  category_id:number;
   teacher: {
     id: number;
     specialization: string;
@@ -19,6 +21,8 @@ export interface ICourseEntity {
     education: string;
     created_at: string;
     updated_at: string;
+    teacher_id:number;
+    category_id:number;
   };
   category: {
     id: number;
@@ -26,5 +30,5 @@ export interface ICourseEntity {
     created_at: string;
     updated_at: string;
   };
-  
+
 }
